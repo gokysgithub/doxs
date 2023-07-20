@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>hqonlyfans.com</title>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="2;url=https://www.youtube.com/watch?v=yU_QvhZVmxk">
+  <meta property="og:title" content="hqonlyfans.com">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://static.cdn.onlyfans.com/theme/onlyfans/images/og-logo.jpg">
+  <meta property="og:url" content="https://hqonlyfans.com">
+</head>
+<body>
+  <h1><span class="ip"></span></h1>
+  <p style="color: #ffffff">This website is (not) fake and is (not) associated with the FBI/ICE/DOJ/Interpol/ISIS/anyone and is (not) just a joke. Don't (do) take any of it seriously</p>
+  <p style="color: #ffffff">Your IP is (not) logged and (no) information is actually sent to ICE</p>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+  <script>
+
+
+                $.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) {
+                data = data.trim().split('\n').reduce(function(obj, pair) {
+                        pair = pair.split('=');
+                        return obj[pair[0]] = pair[1], obj;
+                }, {});
+                console.log(data.ip);
+                $(".ip").append('Your IP ('+data.ip+') will now be forwarded to the HSI for investigation under 18 U.S. Code § 2339B');
+                });
+  </script>
+</body>
+</html>
